@@ -1,0 +1,16 @@
+train_net: "/home/walter040422/Downloads/caffe-master/my-projects/re_test/train.prototxt"
+test_net: "/home/walter040422/Downloads/caffe-master/my-projects/re_test/val.prototxt"
+test_iter: 2
+test_interval: 50
+base_lr: 0.0010000000475
+display: 20
+max_iter: 500
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.00499999988824
+stepsize: 100
+snapshot: 500
+snapshot_prefix: "/home/walter040422/Downloads/caffe-master/my-projects/re_test/caffenet"
+solver_mode: GPU
+type: "SGD"
